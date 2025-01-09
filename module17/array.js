@@ -14,7 +14,11 @@ else if(number >=15 ){
 else{
     console.log(number)
 }
-const nameList = ['foyej khan', 'emon khan' , 'salman khan', ];
-console.log(nameList)
+// const nameList = ['foyej khan', 'emon khan' , 'salman khan', ];
+// console.log(nameList)
 const numberList =[12, 13, 14, 15, 16]
 console.log(numberList)
+
+const listName2 = ['foyej khan', 'emon khan' , 'salman khan', 'parvej khan', 'afzal khan' ];
+console.log(listName2 [0])
+console.log(listName2.length);
