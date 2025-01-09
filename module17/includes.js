@@ -11,3 +11,11 @@ else{
 console.log(listName2.indexOf("parvej khan"))
 console.log(listName2.indexOf("afzal khan"))
 console.log(listName2.indexOf("parvej kh"))
+
+const num = [];
+const gools = 'foyej khan';
+console.log(num)
+console.log(gools)
+console.log(Array.isArray(num))
+console.log(Array.isArray(gools))
+console.log(Array.isArray(listName2))
