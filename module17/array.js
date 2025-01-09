@@ -21,4 +21,6 @@ console.log(numberList)
 
 const listName2 = ['foyej khan', 'emon khan' , 'salman khan', 'parvej khan', 'afzal khan' ];
 console.log(listName2 [0])
-console.log(listName2.length);
+console.log(listName2.length)
+const listName3 = listName2[4]
+console.log(listName3)
