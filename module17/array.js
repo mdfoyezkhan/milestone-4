@@ -14,3 +14,5 @@ else if(number >=15 ){
 else{
     console.log(number)
 }
+const numberList = ['foyej khan', 'emon khan' , 'salman khan', ]
+console.log(numberList)
