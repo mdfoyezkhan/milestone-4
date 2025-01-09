@@ -8,3 +8,6 @@ else{
     var noParty = "we dont go to testaurant"
     console.log(noParty)
 }
+console.log(listName2.indexOf("parvej khan"))
+console.log(listName2.indexOf("afzal khan"))
+console.log(listName2.indexOf("parvej kh"))
