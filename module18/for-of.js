@@ -8,3 +8,11 @@ for(const num of number){
 for(const num1 of number1){
     console.log(num1)
 }
+
+
+const fruits = ['appel', 'orange', 'anner', 'pineapple'];
+console.log(fruits)
+for(const fruit of fruits){
+    console.log(fruit)
+    console.log('i will eat fruits')
+}
