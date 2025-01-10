@@ -13,3 +13,7 @@ while(nun4 <= 10){
     }
     nun4++;
 }
+let i = 0;
+for(let i = 0; i < 5; i++){
+    console.log('hello world',i)
+}
