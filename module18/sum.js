@@ -22,3 +22,11 @@ while(b <= 5){
     console.log('how are you all',b);
     b++;
 }
+let c = 2;
+let d = 0;
+while(c <= 10){
+    b = c + b;
+    console.log('new output here', c);
+    c++;
+
+}
