@@ -29,4 +29,16 @@ while(c <= 10){
     console.log('new output here', c);
     c++;
 
+} 
+// decremental for loop
+for(let m = 10; m >= 0; m--){
+    console.log('hello world', m)
+}
+for(let g = 10; g >= 2; g--){
+    console.log('how are you all', g)
+}
+let h = 20;
+while(h >= 10){
+    console.log('what is this', h)
+    h--;
 }
