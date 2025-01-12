@@ -1,6 +1,10 @@
-for(i = 1; i <= 30; i++){
-    if(i >= 20){
+
+let n = 54;
+while(n > 50){
+    n++;
+    if(n > 100){
         break;
+       
     }
-    console.log(i)
+    console.log('hello world',n)
 }
