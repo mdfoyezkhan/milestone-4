@@ -8,3 +8,9 @@ while(n > 50){
     }
     console.log('hello world',n)
 }
+let m = 10;
+do{
+    console.log(m)
+    m++;
+}
+while(m < 5)
