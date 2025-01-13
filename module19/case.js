@@ -9,3 +9,12 @@ if(subject.toUpperCase() === book.toUpperCase()){
 else{
     console.log('i will not reading')
 }
+
+const water ='water';
+const liquit ='water ';
+if(water.trim() === liquit.trim()){
+    console.log('i will drink water')
+}
+else{
+    console.log('i dont drink water')
+}
