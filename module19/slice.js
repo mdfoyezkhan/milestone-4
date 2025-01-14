@@ -10,4 +10,8 @@ const friendsStr = 'salman, emon, jobber, sanam, arman, samaun';
 const friends = friendsStr.split(',')
 console.log(friends)
 
-const realFriends = ''
+const realFriends =['salman', 'emon', 'jobber', 'sanam', 'arman', 'samaun'];
+console.log(realFriends)
+console.log(realFriends.join())
+console.log(realFriends.join('|'))
+console.log(realFriends.join('-'))
