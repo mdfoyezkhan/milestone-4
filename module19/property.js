@@ -9,3 +9,6 @@ console.log(person)
 console.log(person.profession)
 const income = person.salary;
 console.log(income)
+console.log(person['age'])
+const myAge = person['age']
+console.log(myAge)
