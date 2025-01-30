@@ -12,6 +12,7 @@ function pushMe(){
 pushMe();
 function superShop(){
     console.log('welcome to my super shop');
+    console.log('how can i help you')
     
 }
 superShop();
