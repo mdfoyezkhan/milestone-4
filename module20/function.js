@@ -16,3 +16,8 @@ function superShop(){
     
 }
 superShop();
+function ourShop(){
+    console.log('hello world!');
+    console.log('how are you all')
+}
+ourShop();
