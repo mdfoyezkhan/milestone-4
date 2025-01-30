@@ -10,3 +10,8 @@ function pushMe(){
     console.log('what is this')
 }
 pushMe();
+function superShop(){
+    console.log('welcome to my super shop');
+    
+}
+superShop();
