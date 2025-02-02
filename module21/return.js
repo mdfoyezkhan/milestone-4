@@ -15,3 +15,11 @@ function cutHalf(number){
 cutHalf(50)
 const diff =cutHalf(50);
 console.log(diff)
+
+function jugfol(price){
+    const result = price + 50;
+    return result;
+}
+jugfol(50)
+const jug = jugfol(50);
+console.log('output',jug)
