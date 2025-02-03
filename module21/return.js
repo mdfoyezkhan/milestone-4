@@ -23,3 +23,8 @@ function jugfol(price){
 jugfol(50)
 const jug = jugfol(50);
 console.log('output',jug)
+function prices(price1, price2){
+    const result = price1 + price2;
+    return result;
+}
+console.log(prices(40, 60))
