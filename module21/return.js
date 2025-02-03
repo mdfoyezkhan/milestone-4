@@ -27,4 +27,11 @@ function prices(price1, price2){
     const result = price1 + price2;
     return result;
 }
-console.log(prices(40, 60))
+console.log(prices(40, 60));
+function bajurNumber(number1,number2){
+    const nam1 = number1 + number2;
+    const diff = number1 - number2;
+    const dibid = nam1 / diff;
+    return dibid;
+}
+console.log(bajurNumber(5, 2))
