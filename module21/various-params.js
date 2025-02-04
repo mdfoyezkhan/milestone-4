@@ -9,4 +9,11 @@ function doubleOrTruple(number, double){
     }
 }
 console.log(doubleOrTruple(15, true));
-console.log(doubleOrTruple(-15, false))
+console.log(doubleOrTruple(-15, false));
+
+function evenSizeString(str){
+    const size = str.length;
+    console.log(str, size);
+
+}
+evenSizeString('sylhet');
