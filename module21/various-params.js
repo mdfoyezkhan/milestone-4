@@ -23,4 +23,11 @@ function evenSizeString(str){
 
 }
 evenSizeString('sylhet');
-evenSizeString('bahubal')
+evenSizeString('bahubal');
+ 
+function numberOfElements(numbers){
+    const len = numbers . length;
+    console.log(len)
+    return len;
+}
+numberOfElements([12, 23, 45, 67,56])
