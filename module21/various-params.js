@@ -14,6 +14,13 @@ console.log(doubleOrTruple(-15, false));
 function evenSizeString(str){
     const size = str.length;
     console.log(str, size);
+    if(size === 0){
+        console.log('even size')
+    }
+    else{
+        console.log('odd size')
+    }
 
 }
 evenSizeString('sylhet');
+evenSizeString('bahubal')
