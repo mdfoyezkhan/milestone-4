@@ -1,14 +1,13 @@
 function onlyEvenNumbers(numbers){
-    let evens =[];
+    let sum =0;
     for(const number of numbers){
         console.log(number)
         if(number %2 === 0){
             console.log(number)
-            evens.push(number);
-            return evens;
+            sum = sum + number;
         }   
     }
-    return evens;
+    return sum;
 }
 const numbers =[11, 23, 31, 39]
 onlyEvenNumbers(numbers)
