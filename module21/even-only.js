@@ -10,4 +10,5 @@ function onlyEvenNumbers(numbers){
     return sum;
 }
 const numbers =[11, 23, 31, 39]
-onlyEvenNumbers(numbers)
+const result = onlyEvenNumbers(numbers)
+console.log('this is only for even numbers', result)
