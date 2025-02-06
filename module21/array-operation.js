@@ -14,12 +14,11 @@ console.log('this is total number', sum)
 function foyejKhan(num){
   let sum = 0;
   for(const foyej of num ){
-    console.log(num);
-    const khan = sum + num;
-    return sum;
-
+    console.log(num)
+    const fKhan = sum + num;
   }
+  return sum;
 }
 const numbs = [10, 15, 20, 30];
 const fKhan =foyejKhan(numbs);
-console.log(fKhan)
+console.log('hello world',fKhan)
