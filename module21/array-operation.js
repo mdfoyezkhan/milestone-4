@@ -22,3 +22,4 @@ function foyejKhan(num){
 const numbs = [10, 15, 20, 30];
 const fKhan =foyejKhan(numbs);
 console.log('hello world',fKhan)
+console.log('how are you all',fKhan)
