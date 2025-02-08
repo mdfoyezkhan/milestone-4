@@ -10,6 +10,9 @@ function productPrice(){
     else if(price>=52){
         console.log('this the main price')
     }
+    else if(price>=40){
+        console.log('this the discunt price')
+    }
     else{
         console.log(price)
     }
