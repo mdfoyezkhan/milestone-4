@@ -15,3 +15,9 @@ function foyejKhanHightSecend(fInch){
 }
 const result = foyejKhanHightSecend(75);
 console.log(result);
+
+function mileToKilometer(mile){
+    const kilo = mile * 1.60934;
+    return kilo;
+}
+mileToKilometer(2.60934)
