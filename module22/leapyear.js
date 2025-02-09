@@ -1,5 +1,5 @@
 function leapYear(year){
-    if(year % 4 === 0){
+    if(year % 5 === 0){
         return true;
     }
     else{
