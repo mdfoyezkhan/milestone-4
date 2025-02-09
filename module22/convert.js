@@ -6,11 +6,12 @@ const foyejKhanHight = inchToFeet(64);
 console.log(foyejKhanHight)
 
 function foyejKhanHightSecend(fInch){
-    const feetFraction =fInch / 12;
+    const feetFraction = fInch / 12;
+    const feetNumber = parseInt(feetFraction);
     const inchFraction = fInch % 12;
-    const feetAndInch = feetFraction + inchFraction;
+    const feetAndInch = feetFraction + 'feet' + inchFraction +'inch';
     return feetAndInch;
     
 }
-const result = foyejKhanHightSecend(64);
+const result = foyejKhanHightSecend(75);
 console.log(result);
