@@ -10,5 +10,5 @@ function noDuplicate(array){
     }
     return unique;
 }
-const uniquearray = noDuplicate(biryaniKhor)
+const uniquearray = noDuplicate(number)
 console.log(uniquearray)
