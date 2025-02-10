@@ -1,7 +1,7 @@
 function oddAverege(numbers){
     const odds = [];
     for( const number of numbers){
-        if(number % 2 === 0){
+        if(number % 2 === 1){
             // console.log(number)
             odds.push(number)
         }
