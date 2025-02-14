@@ -5,8 +5,8 @@ function woodQuantity(chair, table, bed){
     const chairTotalWood = chair * chairNumber;
     const tableTotalWood = table * tableNumber;
     const bedTotalNumber = bed * bedNumber;
-    // const totalKat = ;
-    return chairTotalWood, tableTotalWood, bedTotalNumber;
+    const totalKat = chairTotalWood + tableTotalWood + bedTotalNumber;
+    return totalKat;
 }
-const wood = woodQuantity(0, 0, 1)
+const wood = woodQuantity(7, 4, 1)
 console.log(wood)
