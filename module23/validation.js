@@ -20,3 +20,24 @@ function fullName(first, second){
 }
 const result1 =fullName('foyej khan', 7);
 console.log(result1)
+//-----------
+function getPrice(product){
+    if(typeof product !== 'object'){
+        return 'Please provide an object';
+    }
+    const price =product.price;
+    return price;
+}
+const price =getPrice({name:'dell',price:50000,color:'black'})
+// const price = getPrice(5)
+console.log(price)
+
+function getSecond(numbers){
+    if(Array.isArray(numbers) == false){
+        return 'Please provide an array'
+    }
+    const second= numbers[1];
+    return second;
+}
+const second =getSecond(12);
+console.log(second)
