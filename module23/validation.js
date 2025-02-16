@@ -7,3 +7,16 @@ function multiply(num1, num2){
 }
 const result = multiply(5, 'seven')
 console.log(result)
+//---------
+function fullName(first, second){
+    if(typeof first !== 'string'){
+        return 'first Name should be string';
+    }
+    else if(typeof second !== 'string'){
+        return 'second Name should be string'
+    }
+    const fName = first + ' ' + second;
+    return fName;
+}
+const result1 =fullName('foyej khan', 7);
+console.log(result1)
